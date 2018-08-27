@@ -7,6 +7,6 @@ image_resource:
     repository: jfloff/alpine-python
     tag: 2.7-slim
 inputs:
-  - name: beginner
+  - name: python-helloworld
 run:
   path: python-helloworld/ci/scripts/run_setup.sh
