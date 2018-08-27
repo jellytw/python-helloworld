@@ -1,0 +1,13 @@
+resources:
+  - name: python-helloworld
+    type: git
+    source: &repo-source
+      uri: https://github.com/jellytw/python-helloworld.git
+      branch: master
+jobs:
+  - name: Run Setup
+    plan:
+      - get: python-helloworld
+        trigger: true
+      - task: setup the program
+        file: python-helloworld/ci/tasks/run_setup.yml

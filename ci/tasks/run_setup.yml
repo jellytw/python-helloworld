@@ -1,0 +1,12 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: jfloff/alpine-python
+    tag: 2.7-slim
+inputs:
+  - name: beginner
+run:
+  path: python-helloworld/ci/scripts/run_setup.sh
