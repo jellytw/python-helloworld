@@ -1,0 +1,6 @@
+---
+platform: linux
+inputs:
+  - name: /tmp/my_file_execs
+run:
+  path: /tmp/my_file_execs

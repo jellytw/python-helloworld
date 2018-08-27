@@ -12,4 +12,4 @@ jobs:
       - task: setup the program
         file: python-helloworld/ci/tasks/run_setup.yml
       - task: run the program
-        file: /tmp/my_file_exec
+        file: python-helloworld/ci/tasks/run_exec.yml
