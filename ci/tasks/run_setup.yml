@@ -8,5 +8,7 @@ image_resource:
     tag: 2.7-slim
 inputs:
   - name: python-helloworld
+outputs:
+  - name: /tmp/my_file_execs
 run:
   path: python-helloworld/ci/scripts/run_setup.sh
