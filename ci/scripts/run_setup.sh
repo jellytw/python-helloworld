@@ -2,6 +2,6 @@
 
 set -e -u -x
 
-cd beginner
+cd python-helloworld
 python --version
 python setup.py install
